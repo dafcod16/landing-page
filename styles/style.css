@@ -1,3 +1,11 @@
+/*makes everything border box*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
 body{
     margin: 0;
 }
@@ -13,12 +21,18 @@ nav{
 .logo{
     margin-right: auto;
     font-size: 24px;
-    color: #f9faf8
+    font-weight: 600;
+    color: #f9faf8;
+    margin-left: 25vh;
 }
 
 .header-links{
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
+    padding: 14px 16px;
+    gap: 1.5em;
+    margin-right: 25vh;
 }
 
 a{
