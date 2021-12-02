@@ -6,8 +6,10 @@ html {
     box-sizing: inherit;
   }
   
-body{
+/*give body 0 margin to fit full screen*/
+  body{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav{
@@ -32,7 +34,7 @@ nav{
     font-size: 18px;
     color: #e5e7eb;
     padding: 14px 16px;
-    gap: 1.5em;
+    gap: 1.75em;
     margin-right: 25vh;
 }
 
