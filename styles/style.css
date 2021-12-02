@@ -1,3 +1,27 @@
 body{
     margin: 0;
 }
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+    background-color: #1f2937;
+}
+
+.logo{
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8
+}
+
+.header-links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
