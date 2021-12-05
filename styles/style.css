@@ -26,7 +26,7 @@ nav{
     font-size: 24px;
     font-weight: 600;
     color: #f9faf8;
-    margin-left: 25vh;
+    margin-left: 15vw;
 }
 
 .header-links{
@@ -35,10 +35,36 @@ nav{
     color: #e5e7eb;
     padding: 14px 16px;
     gap: 1.75em;
-    margin-right: 25vh;
+    margin-right: 15vw;
 }
 
 a{
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.main{
+  background-color: #1f2937;
+  display: flex;
+}
+
+.left{
+  border: 2px solid red;
+  margin-left: 15vw;
+}
+
+.hero-txt{
+  font-size: 48px;
+  font-weight: 800px;
+  color: #f9faf8;
+}
+
+.hero-secondary{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.image{
+  display: flex;
+  height: 100px;
+  width: 150px;
 }
