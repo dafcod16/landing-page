@@ -90,3 +90,17 @@ a{
   margin-right: 15.5vw;
   /* border: 2px solid red; */
 }
+
+.header{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800px;
+  text-align: center;
+  padding: 2em 0em;
+}
+
+.boxes{
+  display: flex;
+  gap: 3em;
+  margin: 0vw 15vw;
+}
