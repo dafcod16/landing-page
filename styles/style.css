@@ -107,7 +107,7 @@ button{
   display: flex;
   gap: 3em;
   margin: 0vw 20vw;
-  overflow: hidden;
+  flex-wrap: wrap;
 }
 .box{
   display: flex;
