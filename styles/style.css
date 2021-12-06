@@ -47,13 +47,11 @@ a{
   background-color: #1f2937;
   display: flex;
   align-items: center;
-  /* border: 2px solid red; */
   gap: 2em;
   padding: 4em 0px; 
 }
 
 .left{
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   gap: .75em;
@@ -72,7 +70,7 @@ a{
   color: #e5e7eb;
 }
 
-.button1{
+button{
   height: 35px;
   width: 100px;
   border: none;
@@ -88,7 +86,6 @@ a{
   width: 480px;
   margin-left: auto;
   margin-right: 15.5vw;
-  /* border: 2px solid red; */
 }
 
 .header{
@@ -145,12 +142,36 @@ span.box4{
   color: #1f2937;
   font-style: italic;
   font-weight: 100;
-  /* padding: 2em 0em; */
 }
 .author{
   margin: 0vw 20vw;
   text-align: right;
   font-size: 36px;
   font-weight: 800;
-  color: #1f2937;
+  color: #000;
+}
+
+.action{
+  margin: 7em 15vw;
+  display: flex;
+  padding: 4em 8em;
+  background-color: #3882f6;
+  border-radius: 15px;
+}
+.statement, .button2, .follow{
+  color: #f9faf8;
+}
+.statement{
+  font-size: 24px;
+  font-weight: 800;
+}
+.follow{
+  font-weight: 200;
+  text-align: left;
+}
+.button2{
+  border: 2px solid #f9faf8;
+  margin-left: auto;
+  font-size: 17px;
+  width: 150px;
 }
