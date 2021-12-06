@@ -99,14 +99,14 @@ a{
   padding: 2em 0em;
 }
 
-/* .information{
-  border: 2px solid red;
-} */
+.information{
+  padding-bottom: 3em;
+}
 
 .boxes{
   display: flex;
   gap: 3em;
-  margin: 0vw 15vw;
+  margin: 0vw 20vw;
 }
 .box{
   display: flex;
@@ -133,4 +133,24 @@ span.box3{
 }
 span.box4{
   background-color: #1f2937;
+}
+
+.quote{
+  background-color: #e5e7eb;
+  padding: 7em 0em;
+}
+.text{
+  margin: 0vw 20vw;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 100;
+  /* padding: 2em 0em; */
+}
+.author{
+  margin: 0vw 20vw;
+  text-align: right;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
 }
