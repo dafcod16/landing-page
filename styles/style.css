@@ -99,8 +99,38 @@ a{
   padding: 2em 0em;
 }
 
+/* .information{
+  border: 2px solid red;
+} */
+
 .boxes{
   display: flex;
   gap: 3em;
   margin: 0vw 15vw;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  text-align: center;
+}
+
+span.box1, span.box2, span.box3, span.box4{
+  display: block;
+  height: 208px;
+  width: 208px;
+  border-radius: 25px;
+}
+span.box1{
+  background-color: #90a3b4;
+}
+span.box2{
+  background-color: #567d9c;
+}
+span.box3{
+  background-color: #0f4162;
+}
+span.box4{
+  background-color: #1f2937;
 }
