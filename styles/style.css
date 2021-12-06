@@ -98,16 +98,21 @@ button{
 
 .information{
   padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .boxes{
   display: flex;
   gap: 3em;
   margin: 0vw 20vw;
+  overflow: scroll;
 }
 .box{
   display: flex;
   flex-direction: column;
+  flex: 1;
   gap: 1em;
   align-items: center;
   text-align: center;
