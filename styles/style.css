@@ -54,6 +54,9 @@ a{
 
 .left{
   /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: .75em;
   margin-left: 15vw;
   width: 480px;
 }
@@ -68,6 +71,17 @@ a{
   font-size: 18px;
   color: #e5e7eb;
 }
+
+.button1{
+  height: 35px;
+  width: 100px;
+  border: none;
+  background: #3882f6;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
 .image{
   display: flex;
   height: 289px;
