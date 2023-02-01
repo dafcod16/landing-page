@@ -106,8 +106,9 @@ button{
 .boxes{
   display: flex;
   gap: 3em;
-  margin: 0vw 20vw;
+  margin: 0vw 15%;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .box{
   display: flex;
