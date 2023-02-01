@@ -78,6 +78,7 @@ button{
   color: #fff;
   font-weight: bold;
   border-radius: 8px;
+  cursor: pointer
 }
 
 .image{
@@ -179,6 +180,7 @@ span.box4{
   border: 2px solid #f9faf8;
   margin-left: auto;
   width: 150px;
+  cursor: pointer;
 }
 
 .footer{
